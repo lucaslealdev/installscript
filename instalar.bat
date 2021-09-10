@@ -3,14 +3,14 @@ pushd %~dp0
 refreshenv
 choco install xampp-80 -y
 refreshenv
-choco install composer -y
 choco install brave -y
 choco install vcredist140 -y
 choco install 7zip -y
 choco install git -y
+choco install nodejs.install -y
 choco install python -y
 choco install google-drive-file-stream -y
-choco install nodejs.install -y
+choco install composer -y
 choco install filezilla -y
 choco install putty -y
 choco install k-litecodecpackfull -y
