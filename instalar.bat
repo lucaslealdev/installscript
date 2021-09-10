@@ -170,8 +170,8 @@ ECHO Instalando Teracopy
 choco install teracopy -y
 
 ECHO Copiando dados do Sublime
-xcopy "Sublime Text" %public%\..\%LoggedInUserID%\ /E /C /H /Y
+xcopy "Sublime Text" "%public%\..\%LoggedInUserID%\AppData\Roaming\Sublime Text\" /E /C /H /Y
 
 ECHO Copiando dados do XAMPP
-xcopy "php" "C:\xampp\" /E /C /H /Y
+xcopy "php" "%HOMEDRIVE%\xampp\php\" /E /C /H /Y
 GOTO MENU
