@@ -12,7 +12,6 @@ choco install python -y
 choco install google-drive-file-stream -y
 choco install nodejs.install -y
 choco install filezilla -y
-choco install libreoffice-fresh -y
 choco install putty -y
 choco install k-litecodecpackfull -y
 choco install microsoft-windows-terminal -y
