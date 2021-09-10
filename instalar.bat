@@ -1,5 +1,8 @@
 ECHO OFF
 pushd %~dp0
+chcp 65001
+for /f "TOKENS=1,3,*" %%a in ('tasklist /FI "IMAGENAME eq explorer.exe" /FO LIST /V') do if /i "%%a %%b"=="Nome usuário:" (set domain_user=%%c)
+for /f "TOKENS=1,2 DELIMS=\" %%a in ("%domain_user%") do set domain=%%a && set LoggedInUserID=%%b
 :MENU
 CLS
 ECHO.
@@ -167,7 +170,7 @@ ECHO Instalando Teracopy
 choco install teracopy -y
 
 ECHO Copiando dados do Sublime
-xcopy "Sublime Text" %appdata%\ /E /C /H /Y
+xcopy "Sublime Text" %public%\..\%LoggedInUserID%\ /E /C /H /Y
 
 ECHO Copiando dados do XAMPP
 xcopy "php" "C:\xampp\" /E /C /H /Y
