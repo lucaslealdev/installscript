@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ pattern="^[a-z0-9\-]*\$" title="Somente letras minúsculas de A à Z, traços e números" 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html5-urlamigavel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

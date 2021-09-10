@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Color Highlight",
+		"ColorPicker",
+		"ESLint",
+		"Local History",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimePackageSync",
+		"Terminal",
+		"TrailingSpaces",
+		"Twig"
+	],
+}

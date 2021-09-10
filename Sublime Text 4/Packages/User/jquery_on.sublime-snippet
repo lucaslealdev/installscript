@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$(document).off('${1:click}','${2:elemento}');	
+\$(document).on('${1:click}','${2:elemento}',function(e){
+	${3}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>$on</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

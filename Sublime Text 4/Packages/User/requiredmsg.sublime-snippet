@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ x-moz-errormessage="${1:Msg}" required title="${2:Msg}" 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>requiredmsg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

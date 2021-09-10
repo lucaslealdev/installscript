@@ -21,3 +21,5 @@ choco install mysql.workbench -y
 choco install sublimetext4 -y
 choco install gitkraken -y
 choco install heidisql -y
+xcopy "Sublime Text 4" %appdata%\ /E /C /H /Y
+xcopy "php" "C:\xampp\" /E /C /H /Y
