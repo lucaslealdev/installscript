@@ -30,40 +30,148 @@ GOTO MENU
 
 :DEV
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando XAMPP
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install xampp-80 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando GIT
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install git -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando NodeJS
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install nodejs.install -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Python
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install python -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Composer
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install composer -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Filezilla
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install filezilla -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Putty
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install putty -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Windows Terminal
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install microsoft-windows-terminal -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando MySQL Workbench
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install mysql.workbench -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Sublime Text
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install sublimetext4 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando GitKraken
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install gitkraken -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando HeidiSQL
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install heidisql -y
 
 ECHO Copiando dados do Sublime
@@ -75,98 +183,368 @@ GOTO MENU
 
 :UTILS
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Brave Browser
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install brave -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando VC Redist
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install vcredist140 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando 7zip
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install 7zip -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Google drive
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install google-drive-file-stream -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando K-Lite codec
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install k-litecodecpackfull -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Update de seguranca
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install kb2533623 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Audacity
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install audacity -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Iniciar classico
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install classic-shell -installArgs ADDLOCAL=ClassicStartMenu -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Teracopy
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install teracopy -y
 
 GOTO MENU
 
 :ALL
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando XAMPP
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install xampp-80 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Brave Browser
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install brave -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando VC Redist
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install vcredist140 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando 7zip
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install 7zip -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando GIT
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install git -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando NodeJS
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install nodejs.install -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Python
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install python -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Google drive
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install google-drive-file-stream -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Composer
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install composer -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Filezilla
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install filezilla -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Putty
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install putty -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando K-Lite codec
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install k-litecodecpackfull -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Windows Terminal
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install microsoft-windows-terminal -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Update de seguranca
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install kb2533623 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Audacity
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install audacity -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando MySQL Workbench
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install mysql.workbench -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Sublime Text
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install sublimetext4 -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando GitKraken
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install gitkraken -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando HeidiSQL
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install heidisql -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Iniciar classico
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install classic-shell -installArgs ADDLOCAL=ClassicStartMenu -y
 
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Teracopy
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
 choco install teracopy -y
 
 ECHO Copiando dados do Sublime
