@@ -142,6 +142,20 @@ ECHO .
 ECHO .
 ECHO .
 ECHO =================================
+ECHO Instalando MongoDB
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
+choco install mongodb.install -y
+choco install mongodb-compass -y
+choco install mongodb-database-tools -y
+
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando Sublime Text
 ECHO =================================
 ECHO .
@@ -486,6 +500,20 @@ ECHO .
 ECHO .
 ECHO .
 choco install mysql.workbench -y
+
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
+ECHO Instalando MongoDB
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
+choco install mongodb.install -y
+choco install mongodb-compass -y
+choco install mongodb-database-tools -y
 
 ECHO .
 ECHO .
