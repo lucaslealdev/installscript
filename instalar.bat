@@ -168,6 +168,18 @@ ECHO .
 ECHO .
 ECHO .
 ECHO =================================
+ECHO Instalando XN Convert
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
+choco install xnconvert -y
+
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando GitKraken
 ECHO =================================
 ECHO .
@@ -526,6 +538,18 @@ ECHO .
 ECHO .
 ECHO .
 choco install sublimetext4 -y
+
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
+ECHO Instalando XN Convert
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
+choco install xnconvert -y
 
 ECHO .
 ECHO .
