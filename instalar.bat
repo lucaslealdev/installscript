@@ -583,3 +583,5 @@ xcopy "Sublime Text" "%public%\..\%LoggedInUserID%\AppData\Roaming\Sublime Text\
 ECHO Copiando dados do XAMPP
 xcopy "php" "%HOMEDRIVE%\xampp\php\" /E /C /H /Y
 GOTO MENU
+
+:EOF
