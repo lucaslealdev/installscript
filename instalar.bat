@@ -293,17 +293,6 @@ ECHO .
 ECHO .
 choco install audacity -y
 
-ECHO .
-ECHO .
-ECHO .
-ECHO =================================
-ECHO Instalando Iniciar classico
-ECHO =================================
-ECHO .
-ECHO .
-ECHO .
-ECHO .
-choco install classic-shell -installArgs ADDLOCAL=ClassicStartMenu -y
 
 ECHO .
 ECHO .
@@ -575,17 +564,6 @@ ECHO .
 ECHO .
 choco install heidisql -y
 
-ECHO .
-ECHO .
-ECHO .
-ECHO =================================
-ECHO Instalando Iniciar classico
-ECHO =================================
-ECHO .
-ECHO .
-ECHO .
-ECHO .
-choco install classic-shell -installArgs ADDLOCAL=ClassicStartMenu -y
 
 ECHO .
 ECHO .
