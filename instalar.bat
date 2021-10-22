@@ -320,7 +320,7 @@ ECHO .
 ECHO .
 ECHO .
 ECHO =================================
-ECHO Instalando Teracopy
+ECHO Instalando Zoom
 ECHO =================================
 ECHO .
 ECHO .
