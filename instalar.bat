@@ -176,6 +176,18 @@ ECHO .
 ECHO .
 ECHO .
 ECHO =================================
+ECHO Instalando VScode
+ECHO =================================
+ECHO .
+ECHO .
+ECHO .
+ECHO .
+choco install vscode -y
+
+ECHO .
+ECHO .
+ECHO .
+ECHO =================================
 ECHO Instalando XN Convert
 ECHO =================================
 ECHO .
